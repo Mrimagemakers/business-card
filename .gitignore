@@ -81,3 +81,7 @@ android-sdk/ HuesHipHop.pdf
 HalloweenHaunts.pdf
 UnderwaterAdventures.pdf
 HuesHipHop.pdf
+-e 
+# Environment files
+*.env
+*.env.*
