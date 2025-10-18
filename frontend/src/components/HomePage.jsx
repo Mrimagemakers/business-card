@@ -69,7 +69,7 @@ const HomePage = () => {
           <h2 className="text-3xl font-bold mb-8 text-gray-800">Explore Categories</h2>
         </div>
         
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-7 gap-4">
           {categories.map((category) => (
             <Card 
               key={category.id}
