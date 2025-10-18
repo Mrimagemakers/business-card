@@ -42,6 +42,13 @@ export const categories = [
     description: 'Beautiful patterns and designs',
     thumbnail: '/coloring-pages/gp6_1.png',
     color: '#FCBAD3'
+  },
+  {
+    id: 'cosmic',
+    name: 'Cosmic Coloring',
+    description: 'A space coloring odyssey',
+    thumbnail: '/coloring-pages/cosmic/cosmic_1.png',
+    color: '#6366F1'
   }
 ];
 
