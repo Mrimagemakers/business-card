@@ -31,10 +31,8 @@ const ColoringCanvas = () => {
     
     const img = new Image();
     
-    img.crossOrigin = 'anonymous';
-    img.src = page.image;
-    
     img.onload = () => {
+      console.log('Image loaded successfully');
       // Set canvas size
       const maxWidth = 800;
       const maxHeight = 600;
@@ -63,14 +61,18 @@ const ColoringCanvas = () => {
       setIsLoading(false);
     };
     
-    img.onerror = () => {
+    img.onerror = (error) => {
+      console.error('Image load error:', error, page.image);
       toast({
         title: 'Error loading image',
-        description: 'Failed to load the coloring page',
+        description: `Failed to load: ${page.image}`,
         variant: 'destructive'
       });
       setIsLoading(false);
     };
+    
+    console.log('Loading image:', page.image);
+    img.src = page.image;
   }, [page, toast]);
 
   const handleCanvasClick = (e) => {
