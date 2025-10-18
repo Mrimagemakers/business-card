@@ -235,22 +235,21 @@ const ColoringCanvas = () => {
           <div className="lg:col-span-3">
             <Card className="overflow-hidden shadow-2xl">
               <CardContent className="p-0 bg-white">
-                <div className="flex items-center justify-center p-4">
-                  {isLoading ? (
-                    <div className="flex items-center justify-center h-96">
+                <div className="flex items-center justify-center p-4 relative">
+                  {isLoading && (
+                    <div className="absolute inset-0 flex items-center justify-center bg-white z-10">
                       <div className="text-center">
                         <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-orange-500 mx-auto mb-4"></div>
                         <p className="text-gray-600">Loading canvas...</p>
                       </div>
                     </div>
-                  ) : (
-                    <canvas
-                      ref={canvasRef}
-                      onClick={handleCanvasClick}
-                      className="cursor-crosshair border-2 border-gray-200 rounded-lg max-w-full h-auto"
-                      style={{ maxHeight: '70vh' }}
-                    />
                   )}
+                  <canvas
+                    ref={canvasRef}
+                    onClick={handleCanvasClick}
+                    className="cursor-crosshair border-2 border-gray-200 rounded-lg max-w-full h-auto"
+                    style={{ maxHeight: '70vh', display: isLoading ? 'none' : 'block' }}
+                  />
                 </div>
               </CardContent>
             </Card>
