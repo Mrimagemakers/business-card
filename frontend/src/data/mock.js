@@ -49,6 +49,27 @@ export const categories = [
     description: 'A space coloring odyssey',
     thumbnail: '/coloring-pages/cosmic/cosmic_1.png',
     color: '#6366F1'
+  },
+  {
+    id: 'hues-hip-hop',
+    name: 'Hues Got Flow',
+    description: 'Hip-hop inspired coloring pages',
+    thumbnail: '/coloring-pages/hues-hip-hop/hues-hip-hop_1.png',
+    color: '#F59E0B'
+  },
+  {
+    id: 'halloween-haunts',
+    name: 'Halloween Haunts',
+    description: 'Spooky and festive Halloween designs',
+    thumbnail: '/coloring-pages/halloween-haunts/halloween-haunts_1.png',
+    color: '#8B5CF6'
+  },
+  {
+    id: 'underwater',
+    name: 'Underwater Adventure',
+    description: 'Explore the depths of the ocean',
+    thumbnail: '/coloring-pages/underwater/underwater_1.png',
+    color: '#06B6D4'
   }
 ];
 
