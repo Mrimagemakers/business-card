@@ -144,12 +144,11 @@ export const coloringPages = [
   { id: 'halloween_5', categoryId: 'halloween-haunts', name: 'Creepy Carnival', image: '/coloring-pages/halloween-haunts/halloween-haunts_5.png' },
   
   // Underwater Adventure
-  { id: 'underwater_1', categoryId: 'underwater', name: 'Ocean Life 1', image: '/coloring-pages/underwater/underwater_1.png' },
-  { id: 'underwater_2', categoryId: 'underwater', name: 'Ocean Life 2', image: '/coloring-pages/underwater/underwater_2.png' },
-  { id: 'underwater_3', categoryId: 'underwater', name: 'Ocean Life 3', image: '/coloring-pages/underwater/underwater_3.png' },
-  { id: 'underwater_4', categoryId: 'underwater', name: 'Ocean Life 4', image: '/coloring-pages/underwater/underwater_4.png' },
-  { id: 'underwater_5', categoryId: 'underwater', name: 'Ocean Life 5', image: '/coloring-pages/underwater/underwater_5.png' },
-  { id: 'underwater_6', categoryId: 'underwater', name: 'Ocean Life 6', image: '/coloring-pages/underwater/underwater_6.png' }
+  { id: 'underwater_1', categoryId: 'underwater', name: 'Coral Reef', image: '/coloring-pages/underwater/underwater_1.png' },
+  { id: 'underwater_2', categoryId: 'underwater', name: 'Deep Sea', image: '/coloring-pages/underwater/underwater_2.png' },
+  { id: 'underwater_3', categoryId: 'underwater', name: 'Ocean Friends', image: '/coloring-pages/underwater/underwater_3.png' },
+  { id: 'underwater_4', categoryId: 'underwater', name: 'Marine Life', image: '/coloring-pages/underwater/underwater_4.png' },
+  { id: 'underwater_5', categoryId: 'underwater', name: 'Sea Creatures', image: '/coloring-pages/underwater/underwater_5.png' }
 ];
 
 export const colorPalette = [
