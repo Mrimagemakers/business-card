@@ -34,7 +34,7 @@ const HomePage = () => {
           <Card className="border-2 border-orange-200 hover:border-orange-400 transition-all duration-300 hover:shadow-lg">
             <CardHeader>
               <BookOpen className="h-10 w-10 text-orange-500 mb-2" />
-              <CardTitle>58 Pages</CardTitle>
+              <CardTitle>56 Pages</CardTitle>
               <CardDescription>Diverse coloring pages across 10 categories</CardDescription>
             </CardHeader>
           </Card>
