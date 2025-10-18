@@ -137,12 +137,11 @@ export const coloringPages = [
   { id: 'hues_5', categoryId: 'hues-hip-hop', name: 'Rhythm & Rhyme', image: '/coloring-pages/hues-hip-hop/hues-hip-hop_5.png' },
   
   // Halloween Haunts
-  { id: 'halloween_1', categoryId: 'halloween-haunts', name: 'Spooky Scene 1', image: '/coloring-pages/halloween-haunts/halloween-haunts_1.png' },
-  { id: 'halloween_2', categoryId: 'halloween-haunts', name: 'Spooky Scene 2', image: '/coloring-pages/halloween-haunts/halloween-haunts_2.png' },
-  { id: 'halloween_3', categoryId: 'halloween-haunts', name: 'Spooky Scene 3', image: '/coloring-pages/halloween-haunts/halloween-haunts_3.png' },
-  { id: 'halloween_4', categoryId: 'halloween-haunts', name: 'Spooky Scene 4', image: '/coloring-pages/halloween-haunts/halloween-haunts_4.png' },
-  { id: 'halloween_5', categoryId: 'halloween-haunts', name: 'Spooky Scene 5', image: '/coloring-pages/halloween-haunts/halloween-haunts_5.png' },
-  { id: 'halloween_6', categoryId: 'halloween-haunts', name: 'Spooky Scene 6', image: '/coloring-pages/halloween-haunts/halloween-haunts_6.png' },
+  { id: 'halloween_1', categoryId: 'halloween-haunts', name: 'Haunted House', image: '/coloring-pages/halloween-haunts/halloween-haunts_1.png' },
+  { id: 'halloween_2', categoryId: 'halloween-haunts', name: 'Spooky Night', image: '/coloring-pages/halloween-haunts/halloween-haunts_2.png' },
+  { id: 'halloween_3', categoryId: 'halloween-haunts', name: 'Pumpkin Patch', image: '/coloring-pages/halloween-haunts/halloween-haunts_3.png' },
+  { id: 'halloween_4', categoryId: 'halloween-haunts', name: 'Ghost Town', image: '/coloring-pages/halloween-haunts/halloween-haunts_4.png' },
+  { id: 'halloween_5', categoryId: 'halloween-haunts', name: 'Creepy Carnival', image: '/coloring-pages/halloween-haunts/halloween-haunts_5.png' },
   
   // Underwater Adventure
   { id: 'underwater_1', categoryId: 'underwater', name: 'Ocean Life 1', image: '/coloring-pages/underwater/underwater_1.png' },
