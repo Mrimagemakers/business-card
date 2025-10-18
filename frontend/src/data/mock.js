@@ -99,7 +99,15 @@ export const coloringPages = [
   { id: 'gp6_3', categoryId: 'gp6', name: 'Pattern 3', image: '/coloring-pages/gp6_3.png' },
   { id: 'gp6_4', categoryId: 'gp6', name: 'Pattern 4', image: '/coloring-pages/gp6_4.png' },
   { id: 'gp6_5', categoryId: 'gp6', name: 'Pattern 5', image: '/coloring-pages/gp6_5.png' },
-  { id: 'gp6_6', categoryId: 'gp6', name: 'Pattern 6', image: '/coloring-pages/gp6_6.png' }
+  { id: 'gp6_6', categoryId: 'gp6', name: 'Pattern 6', image: '/coloring-pages/gp6_6.png' },
+  
+  // Cosmic Coloring - Space Odyssey
+  { id: 'cosmic_1', categoryId: 'cosmic', name: 'Astronaut Adventure', image: '/coloring-pages/cosmic/cosmic_1.png' },
+  { id: 'cosmic_2', categoryId: 'cosmic', name: 'Solar System', image: '/coloring-pages/cosmic/cosmic_2.png' },
+  { id: 'cosmic_3', categoryId: 'cosmic', name: 'Rocket Ship', image: '/coloring-pages/cosmic/cosmic_3.png' },
+  { id: 'cosmic_4', categoryId: 'cosmic', name: 'Stars and Moon', image: '/coloring-pages/cosmic/cosmic_4.png' },
+  { id: 'cosmic_5', categoryId: 'cosmic', name: 'Planets Galore', image: '/coloring-pages/cosmic/cosmic_5.png' },
+  { id: 'cosmic_6', categoryId: 'cosmic', name: 'Space Station', image: '/coloring-pages/cosmic/cosmic_6.png' }
 ];
 
 export const colorPalette = [
