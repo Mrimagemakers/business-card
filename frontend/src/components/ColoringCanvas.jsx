@@ -21,58 +21,78 @@ const ColoringCanvas = () => {
   const page = coloringPages.find(p => p.id === pageId);
 
   useEffect(() => {
-    if (!page) return;
+    if (!page) {
+      console.log('No page found');
+      return;
+    }
     
     const canvas = canvasRef.current;
-    if (!canvas) return;
+    if (!canvas) {
+      console.log('No canvas ref');
+      return;
+    }
     
-    const ctx = canvas.getContext('2d');
-    if (!ctx) return;
+    const ctx = canvas.getContext('2d', { willReadFrequently: true });
+    if (!ctx) {
+      console.log('No canvas context');
+      return;
+    }
     
+    console.log('Starting to load image:', page.image);
     const img = new Image();
     
     img.onload = () => {
-      console.log('Image loaded successfully');
-      // Set canvas size
-      const maxWidth = 800;
-      const maxHeight = 600;
-      let width = img.width;
-      let height = img.height;
+      console.log('Image loaded successfully!', img.width, 'x', img.height);
       
-      if (width > maxWidth) {
-        height = (height * maxWidth) / width;
-        width = maxWidth;
+      try {
+        // Set canvas size
+        const maxWidth = 800;
+        const maxHeight = 600;
+        let width = img.width;
+        let height = img.height;
+        
+        if (width > maxWidth) {
+          height = (height * maxWidth) / width;
+          width = maxWidth;
+        }
+        
+        if (height > maxHeight) {
+          width = (width * maxHeight) / height;
+          height = maxHeight;
+        }
+        
+        canvas.width = width;
+        canvas.height = height;
+        
+        console.log('Drawing image on canvas:', width, 'x', height);
+        ctx.drawImage(img, 0, 0, width, height);
+        
+        // Save initial state
+        const initialState = ctx.getImageData(0, 0, canvas.width, canvas.height);
+        setHistory([initialState]);
+        setCurrentStep(0);
+        setIsLoading(false);
+        console.log('Canvas ready!');
+      } catch (error) {
+        console.error('Error drawing image:', error);
+        setIsLoading(false);
       }
-      
-      if (height > maxHeight) {
-        width = (width * maxHeight) / height;
-        height = maxHeight;
-      }
-      
-      canvas.width = width;
-      canvas.height = height;
-      
-      ctx.drawImage(img, 0, 0, width, height);
-      
-      // Save initial state
-      const initialState = ctx.getImageData(0, 0, canvas.width, canvas.height);
-      setHistory([initialState]);
-      setCurrentStep(0);
-      setIsLoading(false);
     };
     
     img.onerror = (error) => {
-      console.error('Image load error:', error, page.image);
+      console.error('Image load error:', error);
+      console.error('Failed to load:', page.image);
       toast({
         title: 'Error loading image',
-        description: `Failed to load: ${page.image}`,
+        description: `Failed to load the coloring page. Please try another one.`,
         variant: 'destructive'
       });
       setIsLoading(false);
     };
     
-    console.log('Loading image:', page.image);
+    // Set src after setting up handlers
     img.src = page.image;
+    
   }, [page, toast]);
 
   const handleCanvasClick = (e) => {
