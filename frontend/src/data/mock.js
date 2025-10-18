@@ -128,7 +128,31 @@ export const coloringPages = [
   { id: 'cosmic_3', categoryId: 'cosmic', name: 'Rocket Ship', image: '/coloring-pages/cosmic/cosmic_3.png' },
   { id: 'cosmic_4', categoryId: 'cosmic', name: 'Stars and Moon', image: '/coloring-pages/cosmic/cosmic_4.png' },
   { id: 'cosmic_5', categoryId: 'cosmic', name: 'Planets Galore', image: '/coloring-pages/cosmic/cosmic_5.png' },
-  { id: 'cosmic_6', categoryId: 'cosmic', name: 'Space Station', image: '/coloring-pages/cosmic/cosmic_6.png' }
+  { id: 'cosmic_6', categoryId: 'cosmic', name: 'Space Station', image: '/coloring-pages/cosmic/cosmic_6.png' },
+  
+  // Hues Got Flow - Hip-Hop Odyssey
+  { id: 'hues_1', categoryId: 'hues-hip-hop', name: 'Hip-Hop Style 1', image: '/coloring-pages/hues-hip-hop/hues-hip-hop_1.png' },
+  { id: 'hues_2', categoryId: 'hues-hip-hop', name: 'Hip-Hop Style 2', image: '/coloring-pages/hues-hip-hop/hues-hip-hop_2.png' },
+  { id: 'hues_3', categoryId: 'hues-hip-hop', name: 'Hip-Hop Style 3', image: '/coloring-pages/hues-hip-hop/hues-hip-hop_3.png' },
+  { id: 'hues_4', categoryId: 'hues-hip-hop', name: 'Hip-Hop Style 4', image: '/coloring-pages/hues-hip-hop/hues-hip-hop_4.png' },
+  { id: 'hues_5', categoryId: 'hues-hip-hop', name: 'Hip-Hop Style 5', image: '/coloring-pages/hues-hip-hop/hues-hip-hop_5.png' },
+  { id: 'hues_6', categoryId: 'hues-hip-hop', name: 'Hip-Hop Style 6', image: '/coloring-pages/hues-hip-hop/hues-hip-hop_6.png' },
+  
+  // Halloween Haunts
+  { id: 'halloween_1', categoryId: 'halloween-haunts', name: 'Spooky Scene 1', image: '/coloring-pages/halloween-haunts/halloween-haunts_1.png' },
+  { id: 'halloween_2', categoryId: 'halloween-haunts', name: 'Spooky Scene 2', image: '/coloring-pages/halloween-haunts/halloween-haunts_2.png' },
+  { id: 'halloween_3', categoryId: 'halloween-haunts', name: 'Spooky Scene 3', image: '/coloring-pages/halloween-haunts/halloween-haunts_3.png' },
+  { id: 'halloween_4', categoryId: 'halloween-haunts', name: 'Spooky Scene 4', image: '/coloring-pages/halloween-haunts/halloween-haunts_4.png' },
+  { id: 'halloween_5', categoryId: 'halloween-haunts', name: 'Spooky Scene 5', image: '/coloring-pages/halloween-haunts/halloween-haunts_5.png' },
+  { id: 'halloween_6', categoryId: 'halloween-haunts', name: 'Spooky Scene 6', image: '/coloring-pages/halloween-haunts/halloween-haunts_6.png' },
+  
+  // Underwater Adventure
+  { id: 'underwater_1', categoryId: 'underwater', name: 'Ocean Life 1', image: '/coloring-pages/underwater/underwater_1.png' },
+  { id: 'underwater_2', categoryId: 'underwater', name: 'Ocean Life 2', image: '/coloring-pages/underwater/underwater_2.png' },
+  { id: 'underwater_3', categoryId: 'underwater', name: 'Ocean Life 3', image: '/coloring-pages/underwater/underwater_3.png' },
+  { id: 'underwater_4', categoryId: 'underwater', name: 'Ocean Life 4', image: '/coloring-pages/underwater/underwater_4.png' },
+  { id: 'underwater_5', categoryId: 'underwater', name: 'Ocean Life 5', image: '/coloring-pages/underwater/underwater_5.png' },
+  { id: 'underwater_6', categoryId: 'underwater', name: 'Ocean Life 6', image: '/coloring-pages/underwater/underwater_6.png' }
 ];
 
 export const colorPalette = [
