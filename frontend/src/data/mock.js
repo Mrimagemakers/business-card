@@ -123,12 +123,11 @@ export const coloringPages = [
   { id: 'gp6_6', categoryId: 'gp6', name: 'Pattern 6', image: '/coloring-pages/gp6_6.png' },
   
   // Cosmic Coloring - Space Odyssey
-  { id: 'cosmic_1', categoryId: 'cosmic', name: 'Astronaut Adventure', image: '/coloring-pages/cosmic/cosmic_1.png' },
-  { id: 'cosmic_2', categoryId: 'cosmic', name: 'Solar System', image: '/coloring-pages/cosmic/cosmic_2.png' },
-  { id: 'cosmic_3', categoryId: 'cosmic', name: 'Rocket Ship', image: '/coloring-pages/cosmic/cosmic_3.png' },
-  { id: 'cosmic_4', categoryId: 'cosmic', name: 'Stars and Moon', image: '/coloring-pages/cosmic/cosmic_4.png' },
-  { id: 'cosmic_5', categoryId: 'cosmic', name: 'Planets Galore', image: '/coloring-pages/cosmic/cosmic_5.png' },
-  { id: 'cosmic_6', categoryId: 'cosmic', name: 'Space Station', image: '/coloring-pages/cosmic/cosmic_6.png' },
+  { id: 'cosmic_1', categoryId: 'cosmic', name: 'Space Explorer', image: '/coloring-pages/cosmic/cosmic_1.png' },
+  { id: 'cosmic_2', categoryId: 'cosmic', name: 'Galactic Journey', image: '/coloring-pages/cosmic/cosmic_2.png' },
+  { id: 'cosmic_3', categoryId: 'cosmic', name: 'Celestial Wonders', image: '/coloring-pages/cosmic/cosmic_3.png' },
+  { id: 'cosmic_4', categoryId: 'cosmic', name: 'Nebula Dreams', image: '/coloring-pages/cosmic/cosmic_4.png' },
+  { id: 'cosmic_5', categoryId: 'cosmic', name: 'Cosmic Adventure', image: '/coloring-pages/cosmic/cosmic_5.png' },
   
   // Hues Got Flow - Hip-Hop Odyssey
   { id: 'hues_1', categoryId: 'hues-hip-hop', name: 'Hip-Hop Style 1', image: '/coloring-pages/hues-hip-hop/hues-hip-hop_1.png' },
