@@ -10,24 +10,38 @@ const HomePage = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-orange-50 via-pink-50 to-purple-50">
-      {/* Hero Section */}
-      <div className="container mx-auto px-4 py-16">
-        <div className="text-center mb-16">
-          <h1 className="text-6xl font-bold mb-4 bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent">
-            The Coloring Odyssey
-          </h1>
-          <p className="text-xl text-gray-600 mb-8">
-            Embark on a creative journey with endless coloring possibilities
-          </p>
-          <Button 
-            size="lg" 
-            onClick={() => navigate('/categories')}
-            className="bg-gradient-to-r from-orange-500 to-pink-500 hover:from-orange-600 hover:to-pink-600 text-white px-8 py-6 text-lg transition-all duration-300 hover:scale-105"
-          >
-            <Palette className="mr-2 h-5 w-5" />
-            Start Coloring
-          </Button>
+      {/* Hero Section with Background */}
+      <div 
+        className="relative bg-cover bg-center bg-no-repeat"
+        style={{
+          backgroundImage: 'url(/hero-background.jpg)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center'
+        }}
+      >
+        <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-transparent"></div>
+        <div className="relative container mx-auto px-4 py-24">
+          <div className="text-center mb-16">
+            <h1 className="text-7xl font-bold mb-6 text-white drop-shadow-2xl">
+              The Coloring Odyssey
+            </h1>
+            <p className="text-2xl text-white mb-10 drop-shadow-lg">
+              Embark on a creative journey with endless coloring possibilities
+            </p>
+            <Button 
+              size="lg" 
+              onClick={() => navigate('/categories')}
+              className="bg-gradient-to-r from-orange-500 to-pink-500 hover:from-orange-600 hover:to-pink-600 text-white px-10 py-7 text-xl transition-all duration-300 hover:scale-105 shadow-2xl"
+            >
+              <Palette className="mr-2 h-6 w-6" />
+              Start Coloring
+            </Button>
+          </div>
         </div>
+      </div>
+      
+      {/* Content Section */}
+      <div className="container mx-auto px-4 py-16">
 
         {/* Features */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
