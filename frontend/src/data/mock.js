@@ -130,12 +130,11 @@ export const coloringPages = [
   { id: 'cosmic_5', categoryId: 'cosmic', name: 'Cosmic Adventure', image: '/coloring-pages/cosmic/cosmic_5.png' },
   
   // Hues Got Flow - Hip-Hop Odyssey
-  { id: 'hues_1', categoryId: 'hues-hip-hop', name: 'Hip-Hop Style 1', image: '/coloring-pages/hues-hip-hop/hues-hip-hop_1.png' },
-  { id: 'hues_2', categoryId: 'hues-hip-hop', name: 'Hip-Hop Style 2', image: '/coloring-pages/hues-hip-hop/hues-hip-hop_2.png' },
-  { id: 'hues_3', categoryId: 'hues-hip-hop', name: 'Hip-Hop Style 3', image: '/coloring-pages/hues-hip-hop/hues-hip-hop_3.png' },
-  { id: 'hues_4', categoryId: 'hues-hip-hop', name: 'Hip-Hop Style 4', image: '/coloring-pages/hues-hip-hop/hues-hip-hop_4.png' },
-  { id: 'hues_5', categoryId: 'hues-hip-hop', name: 'Hip-Hop Style 5', image: '/coloring-pages/hues-hip-hop/hues-hip-hop_5.png' },
-  { id: 'hues_6', categoryId: 'hues-hip-hop', name: 'Hip-Hop Style 6', image: '/coloring-pages/hues-hip-hop/hues-hip-hop_6.png' },
+  { id: 'hues_1', categoryId: 'hues-hip-hop', name: 'Urban Beats', image: '/coloring-pages/hues-hip-hop/hues-hip-hop_1.png' },
+  { id: 'hues_2', categoryId: 'hues-hip-hop', name: 'Street Art', image: '/coloring-pages/hues-hip-hop/hues-hip-hop_2.png' },
+  { id: 'hues_3', categoryId: 'hues-hip-hop', name: 'Flow State', image: '/coloring-pages/hues-hip-hop/hues-hip-hop_3.png' },
+  { id: 'hues_4', categoryId: 'hues-hip-hop', name: 'Hip-Hop Culture', image: '/coloring-pages/hues-hip-hop/hues-hip-hop_4.png' },
+  { id: 'hues_5', categoryId: 'hues-hip-hop', name: 'Rhythm & Rhyme', image: '/coloring-pages/hues-hip-hop/hues-hip-hop_5.png' },
   
   // Halloween Haunts
   { id: 'halloween_1', categoryId: 'halloween-haunts', name: 'Spooky Scene 1', image: '/coloring-pages/halloween-haunts/halloween-haunts_1.png' },
