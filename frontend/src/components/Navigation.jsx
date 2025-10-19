@@ -53,7 +53,11 @@ export const Navigation = () => {
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <Button variant="premium" size="lg">
+            <Button 
+              variant="premium" 
+              size="lg"
+              onClick={() => window.open('https://horizon.meta.com/world/10163428610499954', '_blank')}
+            >
               Play on Meta
             </Button>
           </div>
