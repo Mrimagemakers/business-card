@@ -34,7 +34,7 @@ const Home = () => {
       <Navigation />
       <Hero />
       <Story />
-      <FeaturedCharacter />
+      <CharacterSpotlight />
       <Characters />
       <Chapters />
       <Gameplay />
