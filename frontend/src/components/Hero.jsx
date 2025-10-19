@@ -88,9 +88,9 @@ export const Hero = () => {
           </Button>
         </div>
 
-        {/* Character Showcase - Dual Heroes */}
+        {/* Character Showcase - The Three Investigators */}
         <div className="mt-16 animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
-          <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+          <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
             {/* James Carter */}
             <div className="relative group">
               <div className="absolute inset-0 bg-gradient-secondary rounded-2xl blur-2xl opacity-20 group-hover:opacity-30 transition-opacity" />
@@ -99,11 +99,28 @@ export const Hero = () => {
                 alt="James Carter - The Team Leader"
                 className="relative w-full h-auto rounded-2xl shadow-glow-orange group-hover:scale-105 transition-transform"
               />
-              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-background via-background/90 to-transparent p-6 rounded-b-2xl">
-                <h3 className="font-display text-xl font-bold mb-1">James Carter</h3>
-                <p className="text-secondary font-semibold text-sm">Tank / Lead</p>
+              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-background via-background/90 to-transparent p-4 rounded-b-2xl">
+                <h3 className="font-display text-lg font-bold mb-1">James Carter</h3>
+                <p className="text-secondary font-semibold text-xs">Tank / Lead</p>
                 <p className="text-muted-foreground text-xs mt-1">
-                  "Stay close, stay calm."
+                  The Protector
+                </p>
+              </div>
+            </div>
+
+            {/* Rosa Martinez */}
+            <div className="relative group">
+              <div className="absolute inset-0 bg-gradient-primary rounded-2xl blur-2xl opacity-20 group-hover:opacity-30 transition-opacity" />
+              <img
+                src="https://customer-assets.emergentagent.com/job_timeveil-escape/artifacts/oyifby8c_file_000000007234622faa372a93e4bd3c0f.png"
+                alt="Rosa Martinez - The Seer"
+                className="relative w-full h-auto rounded-2xl shadow-glow-teal group-hover:scale-105 transition-transform"
+              />
+              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-background via-background/90 to-transparent p-4 rounded-b-2xl">
+                <h3 className="font-display text-lg font-bold mb-1">Rosa Martinez</h3>
+                <p className="text-primary font-semibold text-xs">Seer / Insight</p>
+                <p className="text-muted-foreground text-xs mt-1">
+                  The Heart
                 </p>
               </div>
             </div>
@@ -116,14 +133,22 @@ export const Hero = () => {
                 alt="Alex Chen - The Tech Genius"
                 className="relative w-full h-auto rounded-2xl shadow-elegant group-hover:scale-105 transition-transform"
               />
-              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-background via-background/90 to-transparent p-6 rounded-b-2xl">
-                <h3 className="font-display text-xl font-bold mb-1">Alex Chen</h3>
-                <p className="text-accent font-semibold text-sm">Tech / Scan</p>
+              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-background via-background/90 to-transparent p-4 rounded-b-2xl">
+                <h3 className="font-display text-lg font-bold mb-1">Alex Chen</h3>
+                <p className="text-accent font-semibold text-xs">Tech / Scan</p>
                 <p className="text-muted-foreground text-xs mt-1">
-                  "This is either the best or worst field trip ever!"
+                  The Problem Solver
                 </p>
               </div>
             </div>
+          </div>
+          
+          {/* Team Tagline */}
+          <div className="text-center mt-8">
+            <p className="text-muted-foreground text-sm">
+              Three unique roles. One terrifying mission. 
+              <span className="text-foreground font-semibold"> Choose your investigator.</span>
+            </p>
           </div>
         </div>
       </div>
