@@ -39,6 +39,7 @@ const Home = () => {
       <Characters />
       <Chapters />
       <Gameplay />
+      <Merchandise />
       <CTA />
       <Footer />
     </div>
