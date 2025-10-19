@@ -27,13 +27,23 @@ export const CTA = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button variant="premium" size="xl" className="text-lg group">
+              <Button 
+                variant="premium" 
+                size="xl" 
+                className="text-lg group"
+                onClick={() => window.open('https://horizon.meta.com/world/10163428610499954', '_blank')}
+              >
                 <Play className="mr-2 group-hover:scale-110 transition-transform" size={20} />
-                Play on Meta Horizon
+                Enter Ravenbrook Manor
               </Button>
-              <Button variant="hero" size="xl" className="text-lg group">
+              <Button 
+                variant="hero" 
+                size="xl" 
+                className="text-lg group"
+                onClick={() => window.open('https://horizon.meta.com/world/10163428610499954', '_blank')}
+              >
                 <ExternalLink className="mr-2 group-hover:scale-110 transition-transform" size={20} />
-                Watch Trailer
+                View on Meta Horizon
               </Button>
             </div>
           </div>
