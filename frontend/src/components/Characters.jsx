@@ -3,17 +3,20 @@ import { Shield, Eye, Cpu, Users } from 'lucide-react';
 
 const characters = [
   {
-    name: 'James',
+    name: 'James Carter',
     role: 'Tank / Lead',
     icon: Shield,
     color: 'secondary',
-    description: 'Absorbs fear events better and can brace doors or move heavy props.',
+    age: '17',
+    ethnicity: 'African American',
+    description: 'Athletic build, brave and logical. Natural leader who protects the group, though skeptical of the supernatural. Deep, calm voice that turns slightly sarcastic under stress.',
     abilities: [
       'High fear resistance',
       'Heavy object interaction',
-      'Door bracing',
+      'Door bracing & barricading',
       'Team protection',
     ],
+    quote: '"Stay close, stay calm. We\'ll get through this together."',
   },
   {
     name: 'Rosa',
