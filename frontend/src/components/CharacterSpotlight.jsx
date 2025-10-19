@@ -38,7 +38,7 @@ const characterData = {
     color: 'accent',
     age: '17',
     ethnicity: 'Chinese-American',
-    image: 'https://customer-assets.emergentagent.com/job_6b917833-4da8-4dea-8164-690c35f3a680/artifacts/hclwky7v_file_0000000064e4622f9b2fac402d79de9d.png',
+    image: 'https://customer-assets.emergentagent.com/job_timeveil-escape/artifacts/xrio0jax_file_000000008ac0622fb51c9b663e845a71.png',
     look: 'Lean build, stylish glasses, graphic t-shirt, black hoodie, camera slung across chest',
     personality: 'Tech-savvy, anxious but quick-thinking, comic relief',
     voiceTone: 'Energetic, slightly nerdy humor',
