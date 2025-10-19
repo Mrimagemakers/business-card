@@ -88,13 +88,22 @@ export const Hero = () => {
           </Button>
         </div>
 
-        {/* Character Image */}
+        {/* Character Image - James Carter */}
         <div className="mt-16 animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
-          <img
-            src="https://customer-assets.emergentagent.com/job_6b917833-4da8-4dea-8164-690c35f3a680/artifacts/hclwky7v_file_0000000064e4622f9b2fac402d79de9d.png"
-            alt="James, Rosa, and Alex - The Investigators"
-            className="mx-auto max-w-4xl w-full h-auto rounded-lg shadow-elegant"
-          />
+          <div className="relative max-w-2xl mx-auto">
+            <img
+              src="https://customer-assets.emergentagent.com/job_timeveil-escape/artifacts/jvb0cug9_file_000000004c2061f59e77e2d727ca5087.png"
+              alt="James Carter - The Team Leader"
+              className="mx-auto w-full h-auto rounded-2xl shadow-glow-orange"
+            />
+            <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-background via-background/80 to-transparent p-6 rounded-b-2xl">
+              <h3 className="font-display text-2xl font-bold mb-1">James Carter</h3>
+              <p className="text-secondary font-semibold">Tank / Lead • Age 17</p>
+              <p className="text-muted-foreground text-sm mt-2">
+                "Stay close, stay calm. We'll get through this together."
+              </p>
+            </div>
+          </div>
         </div>
       </div>
 
