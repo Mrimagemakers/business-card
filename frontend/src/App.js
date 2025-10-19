@@ -5,6 +5,7 @@ import axios from 'axios';
 import { Navigation } from './components/Navigation';
 import { Hero } from './components/Hero';
 import { Story } from './components/Story';
+import { FeaturedCharacter } from './components/FeaturedCharacter';
 import { Characters } from './components/Characters';
 import { Chapters } from './components/Chapters';
 import { Gameplay } from './components/Gameplay';
