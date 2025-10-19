@@ -88,20 +88,41 @@ export const Hero = () => {
           </Button>
         </div>
 
-        {/* Character Image - James Carter */}
+        {/* Character Showcase - Dual Heroes */}
         <div className="mt-16 animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
-          <div className="relative max-w-2xl mx-auto">
-            <img
-              src="https://customer-assets.emergentagent.com/job_timeveil-escape/artifacts/jvb0cug9_file_000000004c2061f59e77e2d727ca5087.png"
-              alt="James Carter - The Team Leader"
-              className="mx-auto w-full h-auto rounded-2xl shadow-glow-orange"
-            />
-            <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-background via-background/80 to-transparent p-6 rounded-b-2xl">
-              <h3 className="font-display text-2xl font-bold mb-1">James Carter</h3>
-              <p className="text-secondary font-semibold">Tank / Lead • Age 17</p>
-              <p className="text-muted-foreground text-sm mt-2">
-                "Stay close, stay calm. We'll get through this together."
-              </p>
+          <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+            {/* James Carter */}
+            <div className="relative group">
+              <div className="absolute inset-0 bg-gradient-secondary rounded-2xl blur-2xl opacity-20 group-hover:opacity-30 transition-opacity" />
+              <img
+                src="https://customer-assets.emergentagent.com/job_timeveil-escape/artifacts/jvb0cug9_file_000000004c2061f59e77e2d727ca5087.png"
+                alt="James Carter - The Team Leader"
+                className="relative w-full h-auto rounded-2xl shadow-glow-orange group-hover:scale-105 transition-transform"
+              />
+              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-background via-background/90 to-transparent p-6 rounded-b-2xl">
+                <h3 className="font-display text-xl font-bold mb-1">James Carter</h3>
+                <p className="text-secondary font-semibold text-sm">Tank / Lead</p>
+                <p className="text-muted-foreground text-xs mt-1">
+                  "Stay close, stay calm."
+                </p>
+              </div>
+            </div>
+
+            {/* Alex Chen */}
+            <div className="relative group">
+              <div className="absolute inset-0 bg-gradient-primary rounded-2xl blur-2xl opacity-20 group-hover:opacity-30 transition-opacity" />
+              <img
+                src="https://customer-assets.emergentagent.com/job_timeveil-escape/artifacts/xrio0jax_file_000000008ac0622fb51c9b663e845a71.png"
+                alt="Alex Chen - The Tech Genius"
+                className="relative w-full h-auto rounded-2xl shadow-elegant group-hover:scale-105 transition-transform"
+              />
+              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-background via-background/90 to-transparent p-6 rounded-b-2xl">
+                <h3 className="font-display text-xl font-bold mb-1">Alex Chen</h3>
+                <p className="text-accent font-semibold text-sm">Tech / Scan</p>
+                <p className="text-muted-foreground text-xs mt-1">
+                  "This is either the best or worst field trip ever!"
+                </p>
+              </div>
             </div>
           </div>
         </div>
