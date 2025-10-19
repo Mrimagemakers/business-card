@@ -10,7 +10,6 @@ import { Chapters } from './components/Chapters';
 import { Gameplay } from './components/Gameplay';
 import { CTA } from './components/CTA';
 import { Footer } from './components/Footer';
-import { Toaster } from './components/ui/sonner';
 
 const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
 const API = `${BACKEND_URL}/api`;
