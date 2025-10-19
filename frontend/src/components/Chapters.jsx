@@ -22,7 +22,7 @@ const chapters = [
     number: 2,
     title: 'Midway of Shadows',
     subtitle: 'The Carnival',
-    icon: Ferriswheel,
+    icon: TentTree,
     duration: '12-18 min',
     color: 'secondary',
     goal: "Break the witches' glamour over the square",
