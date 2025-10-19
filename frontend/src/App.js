@@ -38,7 +38,6 @@ const Home = () => {
       <Gameplay />
       <CTA />
       <Footer />
-      <Toaster />
     </div>
   );
 };
