@@ -41,14 +41,14 @@ const characters = [
     color: 'accent',
     age: '17',
     ethnicity: 'Chinese-American',
-    description: 'Tech-savvy and analytical. Documents everything through photography and gadgets. Decodes signals and records spectral anomalies that others might miss.',
+    description: 'Lean build with stylish glasses, usually wearing a graphic t-shirt and black hoodie with his camera slung across his chest. Tech-savvy problem solver who provides comic relief despite being anxious. Quick-thinking with energetic, slightly nerdy humor.',
     abilities: [
       'Photo documentation',
-      'Gadget operation',
+      'Gadget operation & hacking',
       'Signal decoding',
       'Anomaly scanning & recording',
     ],
-    quote: '"If we document it, we can understand it. And solve it."',
+    quote: '"Okay, so... haunted manor, cursed timeline, evil witches. This is either the best or worst field trip ever!"',
   },
 ];
 
