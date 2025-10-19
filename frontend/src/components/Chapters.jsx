@@ -1,5 +1,5 @@
 import React from 'react';
-import { Church, Ferriswheel, Clock } from 'lucide-react';
+import { Church, TentTree, Clock } from 'lucide-react';
 
 const chapters = [
   {
