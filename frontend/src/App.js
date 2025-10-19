@@ -9,6 +9,7 @@ import { CharacterSpotlight } from './components/CharacterSpotlight';
 import { Characters } from './components/Characters';
 import { Chapters } from './components/Chapters';
 import { Gameplay } from './components/Gameplay';
+import { MetaIntegration } from './components/MetaIntegration';
 import { Merchandise } from './components/Merchandise';
 import { CTA } from './components/CTA';
 import { Footer } from './components/Footer';
