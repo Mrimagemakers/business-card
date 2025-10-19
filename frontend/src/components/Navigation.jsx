@@ -84,7 +84,12 @@ export const Navigation = () => {
                 {link.label}
               </a>
             ))}
-            <Button variant="premium" size="lg" className="w-full">
+            <Button 
+              variant="premium" 
+              size="lg" 
+              className="w-full"
+              onClick={() => window.open('https://horizon.meta.com/world/10163428610499954', '_blank')}
+            >
               Play on Meta
             </Button>
           </div>
