@@ -82,9 +82,9 @@ const characterData = {
       { name: 'Glyph Reading', desc: 'Deciphers ancient inscriptions and ritual symbols others cannot see' },
     ],
     traits: [
-      { title: 'Spiritually Gifted', desc: 'Senses presence of spirits and can communicate with echoes' },
-      { title: 'Empathetic Heart', desc: 'Understands emotional resonance of locations and objects' },
-      { title: 'Time Walker', desc: 'Bridge between past and present, seeing what others miss' },
+      { title: 'Paranormal Intuition', desc: 'First to sense supernatural danger, warning the team before it strikes' },
+      { title: 'The Heart of the Team', desc: 'Unravels the curse through empathy and spiritual connection' },
+      { title: 'Curious & Witty', desc: 'Balances tension with humor while staying deeply connected to the mystery' },
     ],
   },
 };
