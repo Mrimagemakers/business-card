@@ -247,8 +247,12 @@ export const CharacterSpotlight = () => {
         {/* Call to Action */}
         <div className="mt-12 text-center">
           <p className="text-muted-foreground mb-4">Ready to choose your investigator?</p>
-          <Button variant="premium" size="lg">
-            Enter Ravenbrook <ChevronRight className="ml-2" size={18} />
+          <Button 
+            variant="premium" 
+            size="lg"
+            onClick={() => window.open('https://horizon.meta.com/world/10163428610499954', '_blank')}
+          >
+            Enter Ravenbrook Manor <ChevronRight className="ml-2" size={18} />
           </Button>
         </div>
       </div>
