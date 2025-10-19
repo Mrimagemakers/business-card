@@ -86,13 +86,25 @@ export const Characters = () => {
                 </div>
 
                 {/* Name & Role */}
-                <h3 className="font-display text-2xl font-bold mb-2">{character.name}</h3>
-                <p className={`text-${character.color} font-semibold text-sm mb-4`}>{character.role}</p>
+                <h3 className="font-display text-2xl font-bold mb-1">{character.name}</h3>
+                <p className={`text-${character.color} font-semibold text-sm mb-1`}>{character.role}</p>
+                {character.age && (
+                  <p className="text-muted-foreground text-xs mb-4">
+                    {character.ethnicity} • Age {character.age}
+                  </p>
+                )}
 
                 {/* Description */}
-                <p className="text-muted-foreground text-sm leading-relaxed mb-6">
+                <p className="text-muted-foreground text-sm leading-relaxed mb-4">
                   {character.description}
                 </p>
+
+                {/* Quote */}
+                {character.quote && (
+                  <div className="glass-teal rounded-lg p-3 mb-4 border-l-2 border-secondary">
+                    <p className="text-foreground/80 text-xs italic">{character.quote}</p>
+                  </div>
+                )}
 
                 {/* Abilities */}
                 <div className="space-y-2">
