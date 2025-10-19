@@ -40,6 +40,7 @@ const Home = () => {
       <Characters />
       <Chapters />
       <Gameplay />
+      <MetaIntegration />
       <Merchandise />
       <CTA />
       <Footer />
