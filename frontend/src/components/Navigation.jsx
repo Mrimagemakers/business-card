@@ -19,6 +19,7 @@ export const Navigation = () => {
     { label: 'Characters', href: '#characters' },
     { label: 'Chapters', href: '#chapters' },
     { label: 'Gameplay', href: '#gameplay' },
+    { label: 'Merch', href: '#merchandise' },
   ];
 
   return (
