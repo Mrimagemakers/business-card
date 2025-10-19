@@ -80,8 +80,13 @@ export const Hero = () => {
 
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up" style={{ animationDelay: '0.5s' }}>
-          <Button variant="premium" size="xl" className="text-lg">
-            Enter Ravenbrook
+          <Button 
+            variant="premium" 
+            size="xl" 
+            className="text-lg"
+            onClick={() => window.open('https://horizon.meta.com/world/10163428610499954', '_blank')}
+          >
+            Enter Ravenbrook Manor
           </Button>
           <Button variant="hero" size="xl" className="text-lg">
             Watch Trailer
