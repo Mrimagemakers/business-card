@@ -4,7 +4,7 @@ import { Book, ExternalLink, Star, ShoppingCart } from 'lucide-react';
 
 export const Merchandise = () => {
   return (
-    <section className="relative py-24 overflow-hidden bg-gradient-to-b from-background via-muted/20 to-background">
+    <section id="merchandise" className="relative py-24 overflow-hidden bg-gradient-to-b from-background via-muted/20 to-background">
       {/* Background decoration */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-1/3 left-1/4 w-96 h-96 bg-secondary rounded-full blur-3xl" />
